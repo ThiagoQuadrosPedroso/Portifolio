@@ -1,0 +1,128 @@
+.topo{
+    width: 100%;
+    height:80vh;
+    border:3px rgba(161, 6, 6, 0.895) solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00FF7F;
+}
+
+.topo header{
+    width:80%;
+    padding:15px;
+    display:flex;
+    border: 1px black solid;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: 3px 3px 0 black;
+    background-color: #9AFF9A;
+    
+}
+.topo p{
+    padding:0%;
+    margin:0;
+    font-weight: bold;
+    font-size: 1.3em;
+    
+
+}
+
+
+
+.topo nav{
+    width:30%;
+    margin:auto;
+}
+
+
+.topo nav ul{
+    display: flex;
+    gap:15px;
+    padding:0%;
+    margin:0%;
+}
+
+.topo nav li{
+    list-style: none;
+    padding:0%;
+    margin:0%;
+}
+
+.botao{
+    width:100px;
+    padding:10px;
+    border:2px #43CD80 solid;
+    text-align: center;
+    border-radius: 30px;
+    background-color:#43CD80;
+    font-weight: bold;
+    box-shadow: 3px 3px 0 black;
+    &:hover{
+        background-color: rgb(111, 200, 111);
+        cursor: pointer;
+        box-shadow:3px 3px 0.3em black;
+
+    } 
+}
+
+.topo main{
+    width:80%;
+    height:60;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    h1{
+        font-size: 3em;
+        padding:15px;
+        margin:0;
+    }
+    p{
+        font-size: 1.5em;
+        color:#333;
+    }
+    .botoes{
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+        padding:10px;
+    }
+
+    a{
+        width:100px;
+        padding:10px;
+        border:2px #43CD80 solid;
+        text-align: center;
+        border-radius: 30px;
+        background-color:#43CD80;
+        font-weight: bold;
+        box-shadow: 3px 3px 0 black; 
+        &:hover{
+            background-color: rgb(111, 200, 111);
+            cursor: pointer;
+            box-shadow:3px 3px 0.3em black;
+
+        } 
+    }
+}
+
+
+.competencias{
+    display:flex;
+    align-items: center;
+    gap:15px;
+
+}
+
+.bolinha{
+    width:10px;
+    height:10px;
+    background:purple; 
+    border-radius:50%
+}

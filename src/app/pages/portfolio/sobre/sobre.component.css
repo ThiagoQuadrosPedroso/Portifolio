@@ -1,0 +1,30 @@
+.fundo{
+    width:100%;
+    height:80vh;
+    border: 2px darkred solid;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+       width:40%;
+       height:80%;
+       h1{
+         font-size: 3em;
+         color: rgb(61, 180, 24)
+
+       }
+       p{
+         font-size: 1.5em;
+       }
+    }
+    figure{
+        height:80%;
+        box-shadow:10px 10px 0 rgb(82, 205, 82);
+        border:5px #EEE solid;
+    }
+    img{
+        height:100%;
+    }
+
+
+}
