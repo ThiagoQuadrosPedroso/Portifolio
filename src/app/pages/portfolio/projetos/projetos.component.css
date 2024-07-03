@@ -1,0 +1,42 @@
+
+.projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-gap: 20px;
+}
+
+.project {
+    height: 200px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background-color: #eef9ea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;  
+
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    height: 35%;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.project p {
+    margin-top: 10px;
+    color: #666666;
+}
+

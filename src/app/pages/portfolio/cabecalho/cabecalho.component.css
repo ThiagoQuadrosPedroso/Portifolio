@@ -1,7 +1,6 @@
 .topo{
     width: 100%;
     height:80vh;
-    border:3px rgba(161, 6, 6, 0.895) solid;
     display:flex;
     flex-direction: column;
     align-items: center;
